@@ -95,7 +95,7 @@ Interactive API documentation is available via Swagger UI:  http://127.0.0.1:800
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/ChaitanyaSekra/bajaj-broking-sdk.git
+git clone https://github.com/ChaitanyaSekra/Bajaj-Broking-SDK.git
 cd Bajaj-Assignment
 ```
 
