@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Trading API Demo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Trading API Demo</h1>
+
+  <section>
+    <h2>Instruments</h2>
+    <button onclick="loadInstruments()">Load Instruments</button>
+    <ul id="instruments"></ul>
+  </section>
+
+  <section>
+    <h2>Place Market Order</h2>
+    <input id="symbol" placeholder="Symbol (RELIANCE)">
+    <input id="quantity" type="number" placeholder="Quantity">
+    <button onclick="placeOrder()">Buy</button>
+  </section>
+
+  <section>
+    <h2>Trades</h2>
+    <button onclick="loadTrades()">Load Trades</button>
+    <pre id="trades"></pre>
+  </section>
+
+  <section>
+    <h2>Portfolio</h2>
+    <button onclick="loadPortfolio()">Load Portfolio</button>
+    <pre id="portfolio"></pre>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
